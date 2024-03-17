@@ -1,3 +1,4 @@
+-- Create the student table
 CREATE TABLE students(
 student_id SERIAL PRIMARY KEY,
 first_name varchar(255) NOT NULL,
