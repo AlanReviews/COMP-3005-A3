@@ -1,3 +1,4 @@
+-- From the Assignment 3 Question 1 specification, the DDL inserts data into the students database.
 INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
