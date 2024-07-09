@@ -27,8 +27,8 @@ def deleteStudent(cursor, student_id):
 def main():
     try:
         connection = psycopg.connect(
-            "dbname=A3db user=postgres "
-            "password=ab12345 host=localhost port=5432"
+            "dbname= user= "
+            "password= host= port="
         )
         with connection.cursor() as cursor:
             addStudent(cursor, "Abby", "Bailey", "AbbyBailey@gmail.com", "2018-04-05")
