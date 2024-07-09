@@ -4,5 +4,3 @@
  2. Add data with the ddl.sql file
  3. Run pip install psycopg
  4. Run python application.py
-
- Video: https://youtu.be/DJEXFLB5odk
